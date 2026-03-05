@@ -24,17 +24,16 @@ Looker Studio dashboard:
 https://lookerstudio.google.com/reporting/f6fa9420-4b3d-40fc-9f59-a601405875bf
 
 ## Project Structure
-crypto-portfolio-pipeline
-│
-├── notebooks
-│   ├── bitso_snapshot.ipynb
-│   ├── bigquery_insert.ipynb
-│   └── arima_forecast.ipynb
-│
-├── sql
-│   └── forecasting_queries.sql
-│
-├── images
-│   └── architecture.png
-│
-└── README.md
+crypto-portfolio-pipeline/
+├─ notebooks/
+│ ├─ bitso_snapshot.ipynb
+│ ├─ bigquery_insert.ipynb
+│ └─ arima_forecast.ipynb
+├─ sql/
+│ └─ forecasting_queries.sql
+├─ images/
+│ └─ architecture.png
+└─ README.md
+
+## Security
+API keys are not stored in this repo. Credentials are handled via Google Colab Secrets.
